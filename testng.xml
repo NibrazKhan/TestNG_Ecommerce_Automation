@@ -9,17 +9,17 @@
             <class name="TestRunner.LoginTestRunner"/>
         </classes>
     </test>
-    <test name="E-commerce portal Order">
+    <test name="E-commerce portal Search Functionality">
         <classes>
             <class name="TestRunner.SearchFunctionalityRunner"/>
         </classes>
     </test>
-    <test name="E-commerce portal Order">
+    <test name="E-commerce portal Cart">
         <classes>
             <class name="TestRunner.CartPageRunner"/>
         </classes>
     </test>
-    <test name="E-commerce portal Order">
+    <test name="E-commerce portal Checkout">
         <classes>
             <class name="TestRunner.CheckoutPageRunner"/>
         </classes>
