@@ -14,4 +14,14 @@
             <class name="TestRunner.SearchFunctionalityRunner"/>
         </classes>
     </test>
+    <test name="E-commerce portal Order">
+        <classes>
+            <class name="TestRunner.CartPageRunner"/>
+        </classes>
+    </test>
+    <test name="E-commerce portal Order">
+        <classes>
+            <class name="TestRunner.CheckoutPageRunner"/>
+        </classes>
+    </test>
 </suite>

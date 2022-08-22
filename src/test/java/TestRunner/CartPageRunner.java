@@ -62,7 +62,6 @@ public class CartPageRunner extends Setup {
     public void verifyProceedToCheckOutButton() throws InterruptedException {
 //        driver.get("http://automationpractice.com/");
         cartPage=new CartPage(driver);
-//        cartPage.btnAddToCart.click();
         boolean displayProceedToCheckOutButton= cartPage.verifyProceedToCheckOutButton();
         Assert.assertTrue(displayProceedToCheckOutButton);
         Allure.description("Proceed To CheckOut button should be displayed after adding to cart and clicked");
